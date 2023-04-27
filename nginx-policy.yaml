@@ -8,7 +8,6 @@ spec:
       app: nginx
   ingress:
   - from:
-    - namespaceSelector: {}
     - podSelector:
         matchLabels:
           access: "true"
